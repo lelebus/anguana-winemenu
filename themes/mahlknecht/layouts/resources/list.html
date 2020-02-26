@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<div id="resources">
+    {{ range .Pages }}
+    <div class="card {{ .Params.Type }}">
+        <div class="icon"></div>
+        <div class="message">{{ .Content }}</div>
+        {{ with .Params.Src }}<button><a href="{{ .Params.Src }}">Download</a></button>{{ end }}
+    </div>
+    {{ end }}
+</div>
+
+{{ partialCached "footer.html" . }}

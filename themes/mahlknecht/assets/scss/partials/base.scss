@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap');
+html,
+body {
+    background: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    color: $link;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.font-small {
+    font-size: 0.75rem;
+}
+
+// Layout 
+.container {
+    max-width: 1920px;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    @media (max-width: 1499px) {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
+.desktop-half {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    @media (max-width: 979px) {
+        width: 100%;
+    }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &.no-space {
+        justify-content: left;
+    }
+}
+
+.center-area {
+    display: flex;
+}
+
+.center-y {
+    margin: auto 0;
+}
+
+// Style
+.image {
+    background-color: #dbdbdb;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 25px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+// Components
+.menu-horizontal {
+    font-size: 0;
+    a {
+        text-transform: uppercase;
+        color: rgba(33, 33, 33, 0.3);
+        padding: 10px;
+        font-size: 1rem;
+        margin: 0;
+        &.current {
+            color: black;
+            font-weight: 600;
+        }
+        &:hover {
+            color: black;
+        }
+        &+a {
+            position: relative;
+            &::before {
+                content: "";
+                display: block;
+                width: 1px;
+                height: 22px;
+                background-color: rgba(33, 33, 33, 0.3);
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+            }
+        }
+    }
+}

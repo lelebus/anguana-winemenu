@@ -1,0 +1,59 @@
+{{ partial "head.html" . }}
+
+<body>
+    <header>
+        <div id="header-top">
+            <div class="container flex">
+                <div class="header-wrap">
+                    <div id="logo">
+                        <a href="/"></a>
+                    </div>
+                </div>
+                <div class="header-wrap">
+                    <div class="menu">
+                        <ul class="flex">
+                            {{ $currentPage := . }} {{ range .Site.Menus.main }}
+                            <li class="{{ if eq $currentPage.Title .Name}}current{{ end }}">
+                                <a class="menu-item-link" href="{{ .URL | absLangURL | safeURL }}">
+                                {{ .Name }}
+                                </a>
+                            </li>
+                            {{end}}
+                        </ul>
+                    </div>
+                    {{ partial "lang.html" . }}
+                    <div id="menu-toggle" class="hamburger hamburger--squeeze">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom container">
+            <div class="card center-area odd">
+                <div class="flex center-y">
+                    <div>
+                        <h1>{{ .Title }}</h1>
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu-wrap-mobile" class="flex">
+            <div class="container">
+                {{ partial "lang.html" . }}
+                <div class="menu">
+                    <ul>
+                        {{ range .Site.Menus.main }}
+                        <li>
+                            <a class="menu-item-link" href="{{ .URL | absLangURL | safeURL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            <span class="bottom-decoration"></span>
+        </div>
+
+    </header>
