@@ -4,7 +4,7 @@ title: Liniendienst
 name: Liniendienst
 image: scheduled-service.png
 buttonLabel: "Fahrplan"
-buttonLink: #
+buttonLink: ../files/fahrplan.pdf
 layout: infos
 ---
 

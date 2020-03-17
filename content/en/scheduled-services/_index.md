@@ -4,7 +4,7 @@ title: Scheduled services
 name: Scheduled Services
 image: scheduled-service.png
 buttonLabel: "Timetables"
-buttonLink: #
+buttonLink: ../files/fahrplan.pdf
 layout: infos
 ---
 

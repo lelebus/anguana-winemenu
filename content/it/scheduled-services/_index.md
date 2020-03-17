@@ -4,7 +4,7 @@ title: Servizi di linea
 name: Servizi di linea
 image: scheduled-service.png
 buttonLabel: "Orari"
-buttonLink: #
+buttonLink: ../files/fahrplan.pdf
 layout: infos
 ---
 
