@@ -66,17 +66,17 @@ if (document.readyState === 'complete' || (document.readyState !== 'loading' && 
 
 function on_ready() {
     $ = new ElementSelector();
-    if (window.pageYOffset > 90) {
+    if (window.pageYOffset > 5) {
         $.activate('header-top');
         docked = true;
     }
 
     // Add event listeners
     window.addEventListener("scroll", function() {
-        if (window.pageYOffset > 90 && docked === false) {
+        if (window.pageYOffset > 5 && docked === false) {
             $.activate('header-top');
             docked = true;
-        } else if (window.pageYOffset <= 90 && docked === true) {
+        } else if (window.pageYOffset <= 5 && docked === true) {
             $.activate('header-top');
             docked = false;
         }

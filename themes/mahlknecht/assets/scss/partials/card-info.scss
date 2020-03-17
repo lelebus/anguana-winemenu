@@ -1,0 +1,29 @@
+.container .card {
+  &.card-info {
+    height: 80px;
+    .flex {
+      justify-content: left;
+    }
+    font-size: 1.2rem;
+    .icon {
+      height: 35px;
+      width: 35px;
+      margin: 0 45px;
+    }
+    background-color: $light-bg;
+    &.warning {
+        background-image: linear-gradient($warning, rgba($warning, .8));
+    }
+    &.info {
+        background-image: linear-gradient($info, rgba($info, .8));
+    }
+
+    .content {
+      max-width: none;
+      a {
+          color: black;
+          text-decoration: underline;
+      }
+    }
+  }
+}

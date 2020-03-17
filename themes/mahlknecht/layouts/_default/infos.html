@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+<div class="container">
+    {{ range $i := .Pages }}
+    {{if ne $i 0}}
+    <div class="card card-info center-area {{.Params.Type}}">
+        <div class="flex center-y">
+            <div class="icon {{.Params.Type}}"></div>
+            <div class="content flex">
+                <div class="description">{{ .Content }}</div>
+                {{ if .Params.Button}}<button><span class="">Download</span></button>{{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+    {{ partial "title-card.html" . }}
+</div>
+{{ partialCached "footer.html" . }}

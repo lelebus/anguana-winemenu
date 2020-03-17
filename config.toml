@@ -1,5 +1,105 @@
-baseURL = "http://freesoftwarelab.noi.bz.it/"
+baseURL = "http://www.mahlknecht.com"
 languageCode = "en-us"
-defaultContentLanguage = "en"
+defaultContentLanguage = "it"
 title = "Mahlknecht J. GmbH"
+description = ""
 theme = "mahlknecht"
+copyright = "Copyright &copy; 2020 - Mahlknecht J. GmbH"
+
+
+[params]
+home = "Home"
+logo = "images/logo.png"
+logoShort = "images/.png"
+
+
+# contact info
+phone = "+39 0471 376562"
+email = "mail@mahlknecht.com"
+location = "Steinegg/Collepietra (BZ), Italy"
+
+# mandatory info
+company = "Mahlknecht J. GmbH"
+address = "Via Principale, 39<br>Hauptstraße, 39<br>I-39053 Collepietra - Steinegg (BZ)<br>Italy"
+vat = "IT 00669110215"
+fax = "+39 0471 376480"
+pec = "mahlknecht@legalmail.it"
+eInvoice = "SUBM70N"
+capital = "EUR 30 000,00"
+registration = "Bolzano n. 99485 - 03.05.1983"
+
+
+[languages.en]
+weight = 0
+languageName = "English"
+contentDir = "content/en"
+
+[[languages.en.menu.main]]
+url    = "/"
+name   = "Home"
+weight = 1
+
+[[languages.en.menu.main]]
+url    = "/taxi"
+name   = "Taxi Service"
+weight = 2
+
+[[languages.en.menu.main]]
+url    = "/tourism"
+name   = "Travel Coaches"
+weight = 3
+
+[[languages.en.menu.main]]
+url    = "/scheduled-services"
+name   = "Scheduled Services"
+weight = 4
+
+[[languages.en.menu.main]]
+url    = "/history"
+name   = "History"
+weight = 5
+
+[[languages.en.menu.main]]
+url    = "/contact"
+name   = "Contact"
+weight = 6  
+
+[languages.de]
+weight = 10
+contentDir = "content/de/"
+languageName = "Deutsch"
+
+[[languages.de.menu.main]]
+url    = "/"
+name   = "Home"
+weight = 0
+
+[[languages.de.menu.main]]
+url    = "/services"
+name   = "Dienstleitungen"
+weight = 10
+
+[[languages.de.menu.main]]
+url    = "/contact"
+name   = "Kontakt"
+weight = 20
+
+[languages.it]
+weight = 20
+contentDir = "content/it/"
+languageName = "Italiano"
+
+[[languages.it.menu.main]]
+url    = "/"
+name   = "Home"
+weight = 0
+
+[[languages.it.menu.main]]
+url    = "services"
+name   = "Servizi"
+weight = 10
+
+[[languages.it.menu.main]]
+url    = "/contact"
+name   = "Contatto"
+weight = 20
