@@ -1,5 +1,4 @@
 #
 carousel: 
     - image: "scheduled-service.png"
-      fontColor: "#eeeeee"
     - image: "tourism.png"

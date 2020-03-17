@@ -30,14 +30,9 @@ registration = "Bolzano n. 99485 - 03.05.1983"
 
 
 [languages.en]
-weight = 0
+weight = 2
 languageName = "English"
 contentDir = "content/en"
-
-[[languages.en.menu.main]]
-url    = "/"
-name   = "Home"
-weight = 1
 
 [[languages.en.menu.main]]
 url    = "/taxi"
@@ -59,47 +54,52 @@ url    = "/history"
 name   = "History"
 weight = 5
 
-[[languages.en.menu.main]]
-url    = "/contact"
-name   = "Contact"
-weight = 6  
+[languages.it]
+weight = 0
+languageName = "Italiano"
+contentDir = "content/it"
+
+[[languages.it.menu.main]]
+url    = "/taxi"
+name   = "Servizio Taxi"
+weight = 2
+
+[[languages.it.menu.main]]
+url    = "/tourism"
+name   = "Turismo"
+weight = 3
+
+[[languages.it.menu.main]]
+url    = "/scheduled-services"
+name   = "Servizi di linea"
+weight = 4
+
+[[languages.it.menu.main]]
+url    = "/history"
+name   = "Storia aziendale"
+weight = 5
 
 [languages.de]
-weight = 10
+weight = 1
 contentDir = "content/de/"
 languageName = "Deutsch"
 
 [[languages.de.menu.main]]
-url    = "/"
-name   = "Home"
-weight = 0
+url    = "/taxi"
+name   = "Taxi"
+weight = 2
 
 [[languages.de.menu.main]]
-url    = "/services"
-name   = "Dienstleitungen"
-weight = 10
+url    = "/tourism"
+name   = "Tourismus"
+weight = 3
 
 [[languages.de.menu.main]]
-url    = "/contact"
-name   = "Kontakt"
-weight = 20
+url    = "/scheduled-services"
+name   = "Liniendienst"
+weight = 4
 
-[languages.it]
-weight = 20
-contentDir = "content/it/"
-languageName = "Italiano"
-
-[[languages.it.menu.main]]
-url    = "/"
-name   = "Home"
-weight = 0
-
-[[languages.it.menu.main]]
-url    = "services"
-name   = "Servizi"
-weight = 10
-
-[[languages.it.menu.main]]
-url    = "/contact"
-name   = "Contatto"
-weight = 20
+[[languages.de.menu.main]]
+url    = "/history"
+name   = "Firmengeschichte"
+weight = 5

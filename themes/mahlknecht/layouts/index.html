@@ -3,7 +3,7 @@
 
 <div id="carousel" class="carousel">
     {{range $i, $s := .Site.Data.home.carousel}}
-    <div id="slide-{{$i}}" class="slide image {{if eq $i 0}}active{{end}}" style="background-image: url('{{$s.image}}')">
+    <div id="slide-{{$i}}" class="slide image {{if eq $i 0}}active{{end}}" style="background-image: url('{{$s.image | absURL}}')">
         {{if $s.title}}<div class="banner" style="color: {{$s.fontColor}}">{{$s.title}}</div>{{end}}
     </div>
     {{end}}
