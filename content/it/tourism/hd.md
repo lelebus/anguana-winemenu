@@ -3,6 +3,7 @@ title: Setra S 415 GT-HD
 image: vehicles/hd.jpeg
 ---
 
-**Seats:** 52<br>
-**Features:** Reclining seats, Toilet, Air conditioning, Coffee machine, Fridge, Stereo Hi-Fi System, CD- and DVD player<br>
-**Year**: 2015<br>
+**Posti a sedere:** 52<br>
+**Caratteristiche:** Sedili reclinabili, Toilette, Aria condizionata, Macchina da caffè, Frigo, Sistema Stereo HiFi, Lettore CD- e DVD<br>
+**Anno**: 2015<br>
+

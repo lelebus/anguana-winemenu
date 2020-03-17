@@ -3,7 +3,7 @@ title: Volkswagen Caravelle
 image: vehicles/caravelle.jpeg
 ---
 
-**Seats:** 8<br>
-**Features:** Reclining seats, Air conditioning, Stereo Hi-Fi System<br>
-**Optional:** Large trailer<br>
-**Year**: 2015<br>
+**Posti a sedere:** 8<br>
+**Caratteristiche:** Sedili reclinabili, Aria condizionata, Sistema Stereo HiFi<br>
+**Opzionale:** Rimorchio<br>
+**Anno**: 2015<br>

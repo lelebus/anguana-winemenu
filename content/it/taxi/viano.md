@@ -3,7 +3,7 @@ title: Mercedes Viano
 image: vehicles/viano.jpeg
 ---
 
-**Seats:** 7<br>
-**Features:** Reclining seats, Air conditioning, Stereo Hi-Fi System<br>
-**Optional:** Large trailer<br>
-**Year**: 2015<br>
+**Posti a sedere:** 7<br>
+**Caratteristiche:** Sedili reclinabili, Aria condizionata, Sistema Stereo HiFi<br>
+**Opzionale:** Rimorchio<br>
+**Anno**: 2015<br>
