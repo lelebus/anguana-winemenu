@@ -3,4 +3,4 @@ title: Coronavirus!
 type: warning
 ---
 
-<b>Coronavirus!</b> Gültigkeit Schulfrei.
+<b>Coronavirus!</b> Fahrplan 23/03/2020 - 03/04/2020. {{<link "/../files/fahrplan_coronavirus.pdf">}}Herunterladen{{</>}}
