@@ -84,8 +84,14 @@ h4 {
   display: flex;
 }
 
+.center-x {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .center-y {
-  margin: auto 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .w-80 {
