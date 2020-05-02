@@ -7,9 +7,7 @@
             <div class="icon {{.Params.Type}}"></div>
             <div class="content flex">
                 <div class="description">
-                    <b>{{.Title}}</b>
-                    {{ .Content }}
-                    {{ if .Params.File}}<a href="/../files/{{ .Params.File }}" target="_blank">{{ .Params.FileLabel}}</a>{{ end }}
+                    <b>{{.Title}}</b>{{ .Content }}{{ if .Params.File}}<a href="/../files/{{ .Params.File }}" target="_blank">{{ .Params.FileLabel}}</a>{{ end }}
                 </div>
             </div>
         </div>
