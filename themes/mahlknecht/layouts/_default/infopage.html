@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+<div class="container">
+    <div class="card title center-area even" style="height: 100%">
+        <div class="flex center-y">
+            <div class="content">
+                {{ if .Title }}<h2>{{ .Title }}</h2>{{ end }}
+                <br>
+                <div class="description">
+                    {{ .Site.Params.Address | safeHTML }}<br>
+                    <br>
+                    <b>{{ T `fax` }}</b> {{ .Site.Params.Fax }}<br>
+                    <b>{{ T `pec` }}</b> {{ .Site.Params.Pec }}<br>
+                    <br>
+                    <b>{{ T `vat`}}</b> {{ .Site.Params.Vat }}<br>
+                    <b>{{ T `e_invoice` }}</b> {{ .Site.Params.EInvoice }}<br>
+                    <br>
+                    <b>{{ T `capital` }}</b> {{ .Site.Params.Capital}}<br>
+                    {{ .Site.Params.Registration }}
+                </div>
+            </div>
+            {{ block "images" . }}
+            <div class="image" style="background-image: url('/{{ .Params.Image }}')"></div>
+            {{ end }} 
+        </div>
+    </div>
+</div>
+{{ partialCached "footer.html" . }}

@@ -1,0 +1,11 @@
+-   id: vat
+    translation: VAT No.
+-   id: fax
+    translation: Fax
+-   id: pec
+    translation: PEC    
+-   id: e_invoice
+    translation: Recipient code for electronic invoice
+-   id: capital
+    translation: Share capital
+

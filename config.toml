@@ -4,7 +4,7 @@ defaultContentLanguage = "it"
 title = "Mahlknecht J. GmbH"
 description = ""
 theme = "mahlknecht"
-copyright = "Copyright &copy; 2020 - Mahlknecht J. GmbH"
+copyright = "Copyright &copy; 2020"
 
 
 [params]
@@ -20,7 +20,7 @@ location = "Steinegg/Collepietra (BZ), Italy"
 
 # mandatory info
 company = "Mahlknecht J. GmbH"
-address = "Via Principale, 39<br>Hauptstraße, 39<br>I-39053 Collepietra - Steinegg (BZ)<br>Italy"
+address = "Via Principale / Hauptstraße, 39<br>I-39053 Collepietra / Steinegg (BZ)<br>Italy"
 vat = "IT 00669110215"
 fax = "+39 0471 376480"
 pec = "mahlknecht@legalmail.it"

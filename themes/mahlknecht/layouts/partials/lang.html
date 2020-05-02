@@ -1,5 +1,5 @@
 <div class="languages menu-horizontal {{.Site.Languages}}">
     {{ $currentPage := . }}
-    {{ range .Site.Home.AllTranslations }}
-    <a href="{{ .Permalink }}" class="{{if eq $currentPage.Language .Language}}current{{end}}">{{ .Language }}</a> {{ end }}
+    {{ range $currentPage.AllTranslations }}
+    <a href="{{ .Permalink }}" lang="{{ .Language }}" class="{{if eq $currentPage.Language .Language}}current{{end}}">{{ .Language }}</a> {{ end }}
 </div>

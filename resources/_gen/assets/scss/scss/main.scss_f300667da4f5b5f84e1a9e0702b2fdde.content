@@ -1060,7 +1060,8 @@ footer {
   footer .copyright {
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    text-decoration: underline; }
   @media (max-width: 1199px) {
     footer .content {
       font-size: 1rem;

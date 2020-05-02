@@ -1,0 +1,11 @@
+-   id: vat
+    translation: P.Iva
+-   id: fax
+    translation: Fax
+-   id: pec
+    translation: PEC    
+-   id: e_invoice
+    translation: Codice destinatario per fatturazione elettronica
+-   id: capital
+    translation: Capitale sociale
+
