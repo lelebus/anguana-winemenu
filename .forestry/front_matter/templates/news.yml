@@ -19,5 +19,6 @@ fields:
   label: fileLabel
   description: Link title<br><br>z.B. Download
 pages:
+- content/de/scheduled-services/coronavirus-informationen-phase-2.md
 - content/it/scheduled-services/coronavirus-informazioni-fase-2.md
 - content/it/scheduled-services/orario-normale-rispristinato.md
