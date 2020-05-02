@@ -20,6 +20,9 @@
 
     .content {
       max-width: none;
+      p, span, a {
+        display: inline;
+      }
       a {
           color: black;
           text-decoration: underline;

@@ -1172,6 +1172,8 @@ footer {
     background-image: linear-gradient(#5bc0de, rgba(91, 192, 222, 0.8)); }
   .container .card.card-info .content {
     max-width: none; }
+    .container .card.card-info .content p, .container .card.card-info .content span, .container .card.card-info .content a {
+      display: inline; }
     .container .card.card-info .content a {
       color: black;
       text-decoration: underline; }
