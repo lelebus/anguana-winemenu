@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/it/scheduled/services
+  path: content/it/scheduled-services
   label: news-it
   create: all
   match: "**/*"
@@ -20,7 +20,7 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/en/scheduled/services
+  path: content/en/scheduled-services
   label: news-en
   create: all
   match: "**/*"
