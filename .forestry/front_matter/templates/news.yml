@@ -18,3 +18,5 @@ fields:
   name: fileLabel
   label: fileLabel
   description: Link title<br><br>z.B. Download
+pages:
+- content/it/scheduled-services/coronavirus-informazioni-fase-2.md
