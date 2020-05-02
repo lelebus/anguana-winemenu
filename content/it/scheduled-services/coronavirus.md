@@ -1,6 +1,8 @@
 ---
 title: Coronavirus
 type: info
+file: Coronavirus_Phase 2_Plakat_Haltestellen und Bahnhöfe_1F.pdf
+fileLabel: Scarica
 
 ---
-**Coronavirus!** informazione fase 2 {{<link "/../files/Coronavirus_Phase 2_Plakat_Haltestellen und Bahnhöfe_1F.pdf">}}Scarica{{</>}}
+Informazioni fase 2

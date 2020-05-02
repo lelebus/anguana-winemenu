@@ -9,7 +9,7 @@
                 <div class="description">
                     <b>{{.Title}}</b>
                     {{ .Content }}
-                    {{ if .Params.File}}<a href="{{ .Params.File }}" target="_blank">{{ .Params.FileLabel}}</a>{{ end }}
+                    {{ if .Params.File}}<a href="/../files/{{ .Params.File }}" target="_blank">{{ .Params.FileLabel}}</a>{{ end }}
                 </div>
             </div>
         </div>
