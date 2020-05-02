@@ -12,3 +12,5 @@ fields:
     required: false
   description: "- warning<br>- info"
   default: info
+pages:
+- content/it/scheduled-services/ripristino-orario-normale.md
