@@ -9,19 +9,19 @@ sections:
   label: news-it
   create: all
   match: "**/*"
-  exclude: Servizio di linea
+  exclude: Servizi di linea
 - type: directory
   path: content/de/scheduled-services
   label: news-de
   create: all
   match: "**/*"
-  exclude: Liniedienst
+  exclude: Liniendienst
 - type: directory
   path: content/en/scheduled-services
   label: news-en
   create: all
   match: "**/*"
-  exclude: Scheduled Services
+  exclude: Scheduled services
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
