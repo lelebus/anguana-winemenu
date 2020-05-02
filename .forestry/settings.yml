@@ -9,6 +9,7 @@ sections:
   label: news-it
   create: all
   match: "**/*"
+  exclude: Servizio di linea
 - type: directory
   path: content/de/scheduled-services
   label: news-de
