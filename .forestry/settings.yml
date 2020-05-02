@@ -5,8 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/it/scheduled/services
+  label: news-it
+  create: all
+  match: "**/*"
+- type: directory
   path: content/de/scheduled-services
-  label: de
+  label: news-de
   create: all
   match: "**/*"
 - type: directory
@@ -16,7 +21,7 @@ sections:
   match: "*"
 - type: directory
   path: content/en/scheduled/services
-  label: En
+  label: news-en
   create: all
   match: "**/*"
 upload_dir: static/uploads
