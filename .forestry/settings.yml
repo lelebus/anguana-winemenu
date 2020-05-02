@@ -22,7 +22,7 @@ sections:
   create: all
   match: "**/*"
   exclude: Scheduled services
-upload_dir: static
+upload_dir: static/files
 public_path: static
 front_matter_path: ''
 use_front_matter_path: false
