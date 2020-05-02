@@ -1,27 +1,33 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: directory
   path: content/it/scheduled-services
   label: news-it
-  create: all
+  create: documents
   match: "**/*"
-  exclude: Servizi di linea
+  exclude: _index.md
+  templates:
+  - news
 - type: directory
   path: content/de/scheduled-services
   label: news-de
-  create: all
+  create: documents
   match: "**/*"
-  exclude: Liniendienst
+  exclude: _index.md
+  templates:
+  - news
 - type: directory
   path: content/en/scheduled-services
   label: news-en
-  create: all
+  create: documents
   match: "**/*"
-  exclude: Scheduled services
+  exclude: _index.md
+  templates:
+  - news
 upload_dir: static/files
 public_path: static
 front_matter_path: ''

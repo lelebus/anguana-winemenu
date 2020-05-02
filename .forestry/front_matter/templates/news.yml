@@ -1,17 +1,27 @@
 ---
 label: News
-hide_body: false
+hide_body: true
+display_field: title
 fields:
 - type: text
   name: title
   label: title
+  description: Fettes Titel
 - type: text
   name: type
   label: type
-  config:
-    required: false
-  description: "- warning<br>- info"
-  default: info
+  description: "<strong>warning</strong> rot<br><strong>info</strong> blau"
+- type: file
+  name: file
+  label: file
+- type: text
+  name: fileLabel
+  label: fileLabel
+  description: Link title<br><br>z.B. Download
 pages:
-- content/de/scheduled-services/reaktivierung-des-normalen-fahrplans.md
-- content/it/scheduled-services/ripristino-orario-normale.md
+- content/de/scheduled-services/coronavirus-informationen-phase-2.md
+- content/de/scheduled-services/normaler-fahrlplan-zurückgesetzt.md
+- content/en/scheduled-services/coronavirus-informations-phase-2.md
+- content/en/scheduled-services/normal-timetables-restored.md
+- content/it/scheduled-services/coronavirus-informazioni-fase-2.md
+- content/it/scheduled-services/orario-normale-rispristinato.md
