@@ -1,6 +1,6 @@
 ---
 title: Coronavirus
-type: warning
----
+type: info
 
-<b>Coronavirus!</b> Orari 23/03/2020 - 03/04/2020. {{<link "/../files/fahrplan_coronavirus.pdf">}}Scarica{{</>}}
+---
+**Coronavirus!** informazione fase 2 {{<link "/../files/Coronavirus_Phase 2_Plakat_Haltestellen und Bahnhöfe_1F.pdf">}}Scarica{{</>}}

@@ -1,6 +1,6 @@
 ---
 title: Coronavirus!
-type: warning
----
+type: info
 
-<b>Coronavirus!</b> Fahrplan 23/03/2020 - 03/04/2020. {{<link "/../files/fahrplan_coronavirus.pdf">}}Herunterladen{{</>}}
+---
+<b>Coronavirus!</b> Information für Phase 2 {{<link "/../files/Coronavirus_Phase 2_Plakat_Haltestellen und Bahnhöfe_1F.pdf">}}Herunterladen{{</>}}

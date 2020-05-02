@@ -1,0 +1,17 @@
+---
+label: News
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+  config:
+    required: false
+  description: "- warning<br>- info"
+  default: info
+pages:
+- content/de/scheduled-services/reaktivierung-des-normalen-fahrplans.md
+- content/it/scheduled-services/ripristino-orario-normale.md

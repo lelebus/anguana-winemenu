@@ -5,17 +5,25 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/en
-  label: En
+  path: content/it/scheduled-services
+  label: news-it
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+  exclude: Servizi di linea
+- type: directory
+  path: content/de/scheduled-services
+  label: news-de
+  create: all
+  match: "**/*"
+  exclude: Liniendienst
+- type: directory
+  path: content/en/scheduled-services
+  label: news-en
+  create: all
+  match: "**/*"
+  exclude: Scheduled services
+upload_dir: static/files
+public_path: static
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
