@@ -1,16 +1,20 @@
 ---
 label: News
-hide_body: false
+hide_body: true
+display_field: title
 fields:
 - type: text
   name: title
   label: title
+  description: Fettes Titel
 - type: text
   name: type
   label: type
+  description: "<strong>warning</strong> rot<br><strong>info</strong> blau"
 - type: file
   name: file
   label: file
 - type: text
   name: fileLabel
   label: fileLabel
+  description: Link title<br><br>z.B. Download
