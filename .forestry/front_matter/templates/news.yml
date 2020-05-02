@@ -13,4 +13,5 @@ fields:
   description: "- warning<br>- info"
   default: info
 pages:
+- content/de/scheduled-services/reaktivierung-des-normalen-fahrplans.md
 - content/it/scheduled-services/ripristino-orario-normale.md
