@@ -1,12 +1,18 @@
 footer {
     position: absolute;
     bottom: 0;
-    height: 165px;
     width: 100%;
     margin: 0;
     padding: 0;
     background-color: $dark-bg;
     color: white;
+    height: 165px;
+    @media (max-width: 979px) {
+        height: 210px !important;
+    }
+    @media (max-width: 600px) {
+        height: 255px !important;
+    }
     a {
         color: white;
     }
@@ -31,7 +37,7 @@ footer {
             margin-right: 15px;
         }
         &.banner {
-            border-bottom: .5px solid $light-border;
+            border-bottom: 0.5px solid $light-border;
         }
     }
     .copyright {
@@ -50,12 +56,6 @@ footer {
                 padding: 25px 0;
             }
         }
-    }
-    @media (max-width: 979px) {
-        height: 210px;
-    }
-    @media (max-width: 600px) {
-        height: 255px;
     }
     @media (max-width: 405px) {
         .icon {

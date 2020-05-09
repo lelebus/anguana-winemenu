@@ -1031,12 +1031,18 @@ header {
 footer {
   position: absolute;
   bottom: 0;
-  height: 165px;
   width: 100%;
   margin: 0;
   padding: 0;
   background-color: #241d2e;
-  color: white; }
+  color: white;
+  height: 165px; }
+  @media (max-width: 979px) {
+    footer {
+      height: 210px !important; } }
+  @media (max-width: 600px) {
+    footer {
+      height: 255px !important; } }
   footer a {
     color: white; }
   footer .container {
@@ -1068,12 +1074,6 @@ footer {
       padding: 10px; }
       footer .content .w-80 {
         padding: 25px 0; } }
-  @media (max-width: 979px) {
-    footer {
-      height: 210px; } }
-  @media (max-width: 600px) {
-    footer {
-      height: 255px; } }
   @media (max-width: 405px) {
     footer .icon {
       display: none; } }
@@ -1117,6 +1117,12 @@ footer {
 
 .container {
   padding-bottom: 165px; }
+  @media (max-width: 979px) {
+    .container {
+      padding-bottom: 210px; } }
+  @media (max-width: 600px) {
+    .container {
+      padding-bottom: 255px; } }
   .container button {
     color: #1d004b; }
   .container .card {
@@ -1133,7 +1139,7 @@ footer {
       width: 100%; }
       .container .card .flex .image {
         height: 300px;
-        width: 400px;
+        width: 40vw;
         background-size: cover;
         margin: 0 auto; }
       .container .card .flex .content {
@@ -1141,21 +1147,44 @@ footer {
         max-width: 800px; }
         .container .card .flex .content button {
           margin-top: 25px; }
+      @media (max-width: 500px) {
+        .container .card .flex .image,
+        .container .card .flex .content {
+          width: 100%;
+          margin-top: 25px;
+          margin-bottom: 25px; } }
     .container .card.title {
       height: 400px; }
       .container .card.title .image {
         height: 400px;
-        width: 530px;
+        width: 40vw;
         margin: 0; }
-    .container .card.showcase .flex {
-      justify-content: left; }
-      .container .card.showcase .flex .content br {
-        margin-bottom: 10px; }
-      .container .card.showcase .flex .image {
-        height: 240px;
-        width: 420px;
-        margin: 0 25px 0 75px;
-        background-position-y: bottom; }
+      @media (max-width: 979px) {
+        .container .card.title .image {
+          display: none; }
+        .container .card.title .content {
+          width: 100%; } }
+    .container .card.showcase {
+      height: 100%; }
+      .container .card.showcase .flex {
+        justify-content: left; }
+        .container .card.showcase .flex .content br {
+          margin-bottom: 10px; }
+        .container .card.showcase .flex .image {
+          height: 240px;
+          width: 30vw;
+          margin: 0 25px 0 75px;
+          background-position-y: bottom; }
+        .container .card.showcase .flex .image,
+        .container .card.showcase .flex .content {
+          margin-top: 25px;
+          margin-bottom: 25px; }
+          @media (max-width: 776px) {
+            .container .card.showcase .flex .image,
+            .container .card.showcase .flex .content {
+              width: 100%;
+              margin-left: 0;
+              margin-right: 0; } }
 
 .container .card.card-info {
   height: 80px;
@@ -1167,13 +1196,26 @@ footer {
     height: 35px;
     width: 35px;
     margin: 0 45px; }
+    @media (max-width: 600px) {
+      .container .card.card-info .icon {
+        display: none; } }
+  .container .card.card-info .content {
+    width: 75%; }
+    @media (max-width: 600px) {
+      .container .card.card-info .content {
+        width: 100%;
+        text-align: center; }
+        .container .card.card-info .content .description {
+          width: 100%; } }
   .container .card.card-info.warning {
     background-image: linear-gradient(#d9534f, rgba(217, 83, 79, 0.8)); }
   .container .card.card-info.info {
     background-image: linear-gradient(#5bc0de, rgba(91, 192, 222, 0.8)); }
   .container .card.card-info .content {
     max-width: none; }
-    .container .card.card-info .content p, .container .card.card-info .content span, .container .card.card-info .content a {
+    .container .card.card-info .content p,
+    .container .card.card-info .content span,
+    .container .card.card-info .content a {
       display: inline; }
     .container .card.card-info .content a {
       color: black;

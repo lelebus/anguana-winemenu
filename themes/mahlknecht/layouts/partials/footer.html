@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="container copyright">
-        <div>{{.Site.Copyright | safeHTML}} - <a href="{{ `infopage/` | absLangURL }}">{{ .Site.Title }}</a></div>
+        <div><a href="{{ `infopage/` | absLangURL }}">{{.Site.Copyright | safeHTML}} - {{ .Site.Title }}</a></div>
     </div>
 </footer>
 </body>
