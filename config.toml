@@ -1,9 +1,9 @@
-baseURL = "https://www.mahlknecht.com/"
+baseURL = "https://carte.anguanadelvin.com/"
 languageCode = "en-us"
 defaultContentLanguage = "it"
-title = "Mahlknecht J. GmbH"
+title = "Anguana del Vin"
 description = ""
-theme = "mahlknecht"
+theme = "menu"
 copyright = "Copyright &copy; 2020"
 
 
@@ -14,19 +14,9 @@ logoShort = "images/.png"
 
 
 # contact info
-phone = "+39 0471 376562"
-email = "mail@mahlknecht.com"
-location = "Steinegg/Collepietra (BZ), Italy"
-
-# mandatory info
-company = "Mahlknecht J. GmbH"
-address = "Via Principale / Hauptstraße, 39<br>I-39053 Collepietra / Steinegg (BZ)<br>Italy"
-vat = "IT 00669110215"
-fax = "+39 0471 376480"
-pec = "mahlknecht@legalmail.it"
-eInvoice = "SUBM70N"
-capital = "EUR 30 000,00"
-registration = "Bolzano n. 99485 - 03.05.1983"
+phone = "+39 0435 420 440"
+email = "info@monacoscporthotel.com"
+location = "Santo Stefano di Cadore (BL), Italia"
 
 
 [languages.en]
@@ -35,24 +25,19 @@ languageName = "English"
 contentDir = "content/en"
 
 [[languages.en.menu.main]]
-url    = "/taxi"
-name   = "Taxi Service"
+url    = "/sparkling"
+name   = "Sparkling wines"
 weight = 2
 
 [[languages.en.menu.main]]
-url    = "/tourism"
-name   = "Travel Coaches"
+url    = "/red"
+name   = "Red wines"
 weight = 3
 
 [[languages.en.menu.main]]
-url    = "/scheduled-services"
-name   = "Scheduled Services"
+url    = "/white"
+name   = "White wines"
 weight = 4
-
-[[languages.en.menu.main]]
-url    = "/history"
-name   = "History"
-weight = 5
 
 [languages.it]
 weight = 0
@@ -60,46 +45,21 @@ languageName = "Italiano"
 contentDir = "content/it"
 
 [[languages.it.menu.main]]
-url    = "/taxi"
-name   = "Servizio Taxi"
+url    = "/sparkling"
+name   = "Spumanti"
 weight = 2
 
 [[languages.it.menu.main]]
-url    = "/tourism"
-name   = "Turismo"
+url    = "/red"
+name   = "Vini rossi"
 weight = 3
 
 [[languages.it.menu.main]]
-url    = "/scheduled-services"
-name   = "Servizi di linea"
+url    = "/white"
+name   = "Vini bianchi"
 weight = 4
 
 [[languages.it.menu.main]]
-url    = "/history"
-name   = "Storia aziendale"
-weight = 5
-
-[languages.de]
-weight = 1
-contentDir = "content/de/"
-languageName = "Deutsch"
-
-[[languages.de.menu.main]]
-url    = "/taxi"
-name   = "Taxi"
-weight = 2
-
-[[languages.de.menu.main]]
-url    = "/tourism"
-name   = "Tourismus"
-weight = 3
-
-[[languages.de.menu.main]]
-url    = "/scheduled-services"
-name   = "Liniendienst"
-weight = 4
-
-[[languages.de.menu.main]]
-url    = "/history"
-name   = "Firmengeschichte"
+url    = "/sweet"
+name   = "Vini dolci"
 weight = 5
